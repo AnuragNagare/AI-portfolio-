@@ -84,30 +84,27 @@ export const config = {
     projects: [
         {
             id: 1,
-            title: "Neural Network Visualization Tool",
-            category: "AI / Deep Learning",
-            technologies: "Python, TensorFlow, Keras, CNN, JavaScript, HTML, CSS",
-            image: "/images/nn-viz.png",
-            github: "https://github.com/AnuragNagare/Network-Visualization-Tool",
-            description: "An interactive web application that visualizes how a Convolutional Neural Network (CNN) processes handwritten digits in real-time. Draw digits on the canvas, watch layer-by-layer processing (Conv, Pooling, Dense), get instant predictions with confidence scores, and explore probability heatmaps — perfect for learning and teaching deep learning concepts."
+            title: "Agentic AI - Competitive Intelligence Monitor",
+            category: "AI / Agentic Frameworks",
+            technologies: "Temporal, Mistral (Ollama), Tavily, Streamlit, Python",
+            github: "https://github.com/AnuragNagare/Agentic-AI-",
+            description: "An autonomous AI agent that monitors competitors 24/7 and delivers structured executive briefings. Powered by Temporal for durable workflow orchestration and Mistral for intelligent analysis, it features parallel search and a live dashboard for tracking real-time market intelligence."
         },
         {
             id: 2,
-            title: "AuditFlow AI",
-            category: "AI / FinTech",
-            technologies: "Python, NLP, Pandas, Streamlit, Machine Learning, Excel/CSV",
-            image: "/images/auditflow.png",
-            github: "https://github.com/AnuragNagare/AuditFlow-AI",
-            description: "India's first AI-powered continuous auditing platform for Chartered Accountants. Scans 100% of transactions in under 10 seconds, detecting duplicates, round-figure fraud, weekend anomalies, high-value outliers, and vendor loops — with plain-English AI explanations for every red flag. Reduces 40–60 hour audit cycles to 40 seconds of actionable insight."
+            title: "HybridAlpha - Hybrid RAG Financial Analyzer",
+            category: "Gen AI / FinTech",
+            technologies: "Python, LangChain, Groq (Llama 3.3), ChromaDB, SQLite, Plotly",
+            github: "https://github.com/AnuragNagare/HybridAlpha-Hybrid-RAG-",
+            description: "A sophisticated financial analysis platform built on a hybrid RAG architecture. It combines semantic vector search for qualitative data with direct SQL querying for quantitative finance metrics, delivering cited answers and auto-generated interactive charts from real SEC filings."
         },
         {
             id: 3,
-            title: "MindBridge AI",
-            category: "AI / Healthcare",
-            technologies: "Python, NLP, spaCy, Transformers, Streamlit, Clinical NLP",
-            image: "/images/mindbridge.png",
-            github: "https://github.com/AnuragNagare/MindBridge-AI",
-            description: "An AI-driven mental health screening and clinical support system combining PHQ-9 & GAD-7 questionnaires with advanced NLP for early detection of depression, anxiety, and crisis risk. Provides real-time crisis assessment, personalized therapy recommendations, safety plans, and downloadable clinical PDF reports to bridge the gap between awareness and professional care."
+            title: "Neural Network Visualization Tool",
+            category: "AI / Deep Learning",
+            technologies: "Python, PyTorch, Flask, JavaScript, HTML5 Canvas",
+            github: "https://github.com/AnuragNagare/Network-Visualization-Tool",
+            description: "An interactive web application that provides real-time visualization of CNN layer-by-layer processing for handwritten digits. Users can draw digits on a canvas and instantly explore how filters detect edges and patterns through the input, convolution, and dense layers."
         }
     ],
     contact: {
