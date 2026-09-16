@@ -94,11 +94,11 @@ export const config = {
         },
         {
             id: 2,
-            title: "Building Energy Forecasting & Cooling Optimization System",
-            category: "Energy Tech / MLOps",
-            technologies: "Python, Temporal Fusion Transformer, LSTM, MLOps, Docker",
-            github: "https://github.com/AnuragNagare",
-            description: "Multi-horizon load forecasting platform for facility energy management. Incorporates temperature, humidity, and occupancy data to predict 24-hour energy demand and drive pre-cooling schedule recommendations to cut peak-hour consumption."
+            title: "Relay — Hands-Free AI Action Agent",
+            category: "Voice AI / Browser Agents",
+            technologies: "JavaScript, Vite, Web Speech API, MediaPipe, Groq API, Gmail API",
+            github: "https://github.com/AnuragNagare/Beckon-AI",
+            description: "A hands-free action agent that listens to a spoken or typed goal, plans the steps with an LLM (Groq), and executes them against real Gmail — finding threads, drafting replies, and composing new messages. Halts with a mandatory confirmation gate before any irreversible action. No backend — everything runs client-side."
         },
         {
             id: 3,
@@ -110,19 +110,19 @@ export const config = {
         },
         {
             id: 4,
-            title: "HybridAlpha - Hybrid RAG Financial Analyzer",
-            category: "Gen AI / FinTech",
-            technologies: "Python, LangChain, Groq (Llama 3.3), ChromaDB, SQLite, Plotly",
-            github: "https://github.com/AnuragNagare/HybridAlpha-Hybrid-RAG-",
-            description: "A financial analysis platform built on a hybrid RAG architecture. It combines semantic vector search for qualitative data with direct SQL querying for quantitative metrics, delivering cited answers and interactive charts."
+            title: "Ghostframe — Real-Time Invisibility Cloak",
+            category: "Computer Vision / Creative AI",
+            technologies: "Python, OpenCV, MediaPipe, JavaScript, HTML5 Canvas",
+            github: "https://github.com/AnuragNagare/Ghost-frame",
+            description: "A real-time invisibility cloak built with hand tracking and canvas compositing — no model training, no backend. Trace a polygon with your fingertips; wherever that shape moves, a frozen background frame shows through the live camera feed. Available as a single-file browser app and a Python/OpenCV desktop version."
         },
         {
             id: 5,
-            title: "Neural Network Visualization Tool",
-            category: "AI / Deep Learning",
-            technologies: "Python, PyTorch, Flask, JavaScript, HTML5 Canvas",
-            github: "https://github.com/AnuragNagare/Network-Visualization-Tool",
-            description: "An interactive web application providing real-time visualization of CNN layer-by-layer processing for handwritten digits drawn on an HTML5 canvas."
+            title: "ResearchOS — Agentic Research OS",
+            category: "AI / Agentic Frameworks",
+            technologies: "Python, LangGraph, Groq (Llama 3.1/3.3), ChromaDB, Tavily, Plotly, Streamlit, WeasyPrint",
+            github: "https://github.com/AnuragNagare/Agentic-Research-OS",
+            description: "A 5-agent autonomous research pipeline (Supervisor → Researcher → Analyst → Writer → Critic) that turns any question into a fully cited professional report with auto-generated charts and PDF export in under 10 minutes. Features a live Pyvis agent collaboration graph and an automatic critic-revision loop."
         }
     ],
     contact: {
