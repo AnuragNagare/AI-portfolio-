@@ -30,7 +30,29 @@ const Career = () => {
                 </div>
                 <h3>{getDisplayYear(exp.period)}</h3>
               </div>
-              <p>{exp.description}</p>
+              <div className="career-details">
+                <p>{exp.description}</p>
+                <ul>
+                  {exp.responsibilities.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+                <p className="career-tech">{exp.technologies.join(", ")}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="education-info">
+          <h2>
+            Education
+          </h2>
+          {config.education.map((edu, index) => (
+            <div key={index} className="education-box">
+              <h4>{edu.degree}</h4>
+              <h5>
+                {edu.institution}, {edu.location}
+              </h5>
+              <h3>{edu.year}</h3>
             </div>
           ))}
         </div>

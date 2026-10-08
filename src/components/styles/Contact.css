@@ -137,3 +137,24 @@ a.contact-social {
     width: calc(100% - 25px);
   }
 }
+
+.contact-text {
+  max-width: 600px;
+  margin: 0 0 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.contact-btn {
+  align-self: flex-start;
+  display: inline-block;
+  margin-bottom: 40px;
+  padding: 10px 24px;
+  border: 1px solid var(--accentColor);
+  border-radius: 30px;
+  color: var(--accentColor);
+}
+
+.contact-box h5 {
+  line-height: 20px;
+}

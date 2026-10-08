@@ -26,14 +26,18 @@ const MyWorks = () => {
               <p className="myworks-card-tech">
                 <strong>Tech:</strong> {project.technologies}
               </p>
-              <a 
-                href={project.github} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="myworks-github-btn"
-              >
-                View Repository ↗
-              </a>
+              {project.github ? (
+                <a 
+                  href={project.github} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="myworks-github-btn"
+                >
+                  View Repository ↗
+                </a>
+              ) : (
+                <p className="myworks-card-tech">Private project — demo on request</p>
+              )}
             </div>
           </div>
         ))}

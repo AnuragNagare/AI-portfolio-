@@ -99,3 +99,37 @@
     line-height: 2.7rem;
   }
 }
+
+.about-me .about-offer {
+  margin-top: 25px;
+}
+
+.about-me .about-offer h4 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--accentColor);
+}
+
+.about-me .about-offer ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.about-me .about-offer li {
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 300;
+}
+
+@media only screen and (min-width: 1025px) {
+  .about-me p {
+    font-size: 1.3vw;
+    line-height: 1.7vw;
+    margin-bottom: 14px;
+  }
+  .about-me .about-offer li {
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+}

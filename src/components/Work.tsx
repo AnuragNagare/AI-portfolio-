@@ -64,7 +64,7 @@ const Work = () => {
           My <span>Work</span>
         </h2>
         <div className="work-flex">
-          {config.projects.slice(0, 5).map((project, index) => (
+          {config.projects.map((project, index) => (
             <div className="work-box" key={project.id}>
               <div className="work-info">
                 <div className="work-title">
@@ -80,15 +80,19 @@ const Work = () => {
                 <div className="work-description-short">
                   <p>{project.description}</p>
                 </div>
-                <a 
-                  href={project.github} 
-                  target="_blank" 
-                  rel="noopener noreferrer" 
-                  className="work-github-link"
-                  data-cursor="disable"
-                >
-                  View on GitHub ↗
-                </a>
+                {project.github ? (
+                  <a 
+                    href={project.github} 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="work-github-link"
+                    data-cursor="disable"
+                  >
+                    View on GitHub ↗
+                  </a>
+                ) : (
+                  <p className="work-github-link">Private project — demo on request</p>
+                )}
               </div>
             </div>
           ))}

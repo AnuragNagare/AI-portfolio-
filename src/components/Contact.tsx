@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 import "./styles/Contact.css";
 import { config } from "../config";
 import gsap from "gsap";
@@ -59,13 +59,27 @@ const Contact = () => {
   return (
     <div className="contact-section section-container" id="contact">
       <div className="contact-container">
-        <h3>{config.developer.fullName}</h3>
+        <h3>{config.contact.heading}</h3>
+        <p className="contact-text">{config.contact.text}</p>
+        <a
+          href={`mailto:${config.contact.email}`}
+          className="contact-btn"
+          data-cursor="disable"
+        >
+          {config.contact.buttonText}
+        </a>
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Email</h4>
             <p>
               <a href={`mailto:${config.contact.email}`} data-cursor="disable">
                 {config.contact.email}
+              </a>
+            </p>
+            <h4>Phone</h4>
+            <p>
+              <a href={`tel:${config.contact.phone.replace(/\s/g, "")}`} data-cursor="disable">
+                {config.contact.phone}
               </a>
             </p>
             <h4>Location</h4>
@@ -95,12 +109,7 @@ const Contact = () => {
             </a>
           </div>
           <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>{config.developer.fullName}</span>
-            </h2>
-            <h5>
-              <MdCopyright /> {new Date().getFullYear()}
-            </h5>
+            <h5>{config.footer}</h5>
           </div>
         </div>
       </div>

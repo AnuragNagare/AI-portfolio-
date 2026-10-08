@@ -269,3 +269,81 @@
     justify-content: left;
   }
 }
+.career-details {
+  width: 40%;
+}
+
+.career-info-box .career-details p {
+  width: 100%;
+}
+
+.career-details ul {
+  margin: 10px 0;
+  padding-left: 18px;
+}
+
+.career-details li {
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 19px;
+  margin-bottom: 6px;
+}
+
+.career-info-box .career-details .career-tech {
+  font-size: 12px;
+  opacity: 0.6;
+}
+
+.education-info {
+  margin: 20px auto 0;
+  position: relative;
+  text-align: center;
+}
+
+.career-container .education-info h2 {
+  font-size: 40px;
+  line-height: 40px;
+  margin: 0 0 30px;
+}
+
+.education-box {
+  margin-bottom: 25px;
+}
+
+.education-info h3 {
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.education-info h4 {
+  font-size: 22px;
+  line-height: 26px;
+  width: auto;
+}
+
+@media only screen and (max-width: 1400px) {
+  .career-details {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .career-details {
+    width: 100%;
+    padding-left: 10%;
+    box-sizing: border-box;
+  }
+  .education-info {
+    text-align: left;
+    padding-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .career-details {
+    padding-left: 5%;
+  }
+  .education-info {
+    padding-left: 5%;
+  }
+}

@@ -21,13 +21,31 @@ const Landing = ({ children }: PropsWithChildren) => {
             </h1>
           </div>
           <div className="landing-info">
-            <h3>An</h3>
+            <h3>Senior</h3>
             <h2 className="landing-info-h2">
               <div className="landing-h2-1">AI</div>
             </h2>
             <h2>
-              <div className="landing-h2-info">Developer</div>
+              <div className="landing-h2-info">Engineer</div>
             </h2>
+          </div>
+          <div className="landing-details">
+            <p className="landing-tagline">{config.developer.tagline}</p>
+            <p className="landing-description">{config.developer.description}</p>
+            <div className="landing-buttons">
+              <a href="#work" data-href="#work" className="landing-btn" data-cursor="disable">
+                {config.developer.viewWorkText}
+              </a>
+              <a
+                href={config.social.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="landing-btn landing-btn-outline"
+                data-cursor="disable"
+              >
+                {config.developer.resumeText}
+              </a>
+            </div>
           </div>
           {/* Mobile photo - shows only on mobile when 3D character is hidden */}
           <div className="mobile-photo">
