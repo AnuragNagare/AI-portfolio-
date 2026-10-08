@@ -7,25 +7,22 @@ interface TechItem {
 
 // Focused tech stack: 5 -> 4 -> 2 (Total 11)
 const techStack: TechItem[][] = [
-  // Row 1 - 5 items
   [
     { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
-    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
-    { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
     { name: "PyTorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
-    { name: "Pydantic", icon: "https://raw.githubusercontent.com/pydantic/pydantic/main/docs/logo.png" },
+    { name: "TensorFlow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
+    { name: "LangChain", icon: "https://cdn.simpleicons.org/langchain/ffffff" },
+    { name: "Hugging Face", icon: "https://cdn.simpleicons.org/huggingface" },
   ],
-  // Row 2 - 4 items
   [
-    { name: "Agentic AI", icon: "https://img.icons8.com/color/48/bot.png" },
-    { name: "LLM", icon: "https://img.icons8.com/color/48/brain.png" },
-    { name: "Scikit-learn", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg" },
-    { name: "Django", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" },
+    { name: "LangGraph", icon: "https://cdn.simpleicons.org/langchain/ffffff" },
+    { name: "Ollama", icon: "https://cdn.simpleicons.org/ollama/ffffff" },
+    { name: "OpenCV", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" },
+    { name: "Streamlit", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" },
   ],
-  // Row 3 - 2 items
   [
-    { name: "Flask", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" },
     { name: "Docker", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" },
+    { name: "AWS", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" },
   ],
 ];
 

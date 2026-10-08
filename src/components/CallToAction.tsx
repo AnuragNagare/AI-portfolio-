@@ -10,10 +10,8 @@ const CallToAction = () => {
           Play With Me →
         </Link>
         
-        <a 
-          href={config.contact.linkedin} 
-          target="_blank" 
-          rel="noopener noreferrer" 
+        <a
+          href={`mailto:${config.contact.email}?subject=Project%20enquiry`}
           className="cta-btn cta-btn-hire"
           data-cursor="disable"
         >
